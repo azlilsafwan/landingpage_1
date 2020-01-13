@@ -1,0 +1,201 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+header {
+	display: flex;
+	background-color: #f2fdff;
+	box-shadow: 4px 1px 10px #f5f5f5;
+}
+
+.logo-div {
+	width: 10%;
+	padding-top: 20px;
+}
+
+.logo {
+	padding: 20px 100px;
+	text-decoration: none;
+	color: #242424;
+}
+
+.nav-bar {
+	width: 60%;
+}
+
+.nav-bar ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.nav-bar ul li {
+	margin: 10px;
+	padding: 10px 20px;
+	display: inline-block;
+	transition: 0.5s;
+}
+
+.nav-bar ul li a {
+	text-decoration: none;
+	color: #27a6ba;
+}
+
+.active {
+	padding-bottom: 5px;
+	border-bottom: solid 1px #27a6ba;
+}
+
+.nav-bar ul li:hover {
+	background-color: #27a6ba;
+	padding: 10px 30px;
+	transition: 0.5s;
+}
+
+.nav-bar ul li:hover a {
+	color: white;
+	border-bottom: none;
+}
+
+.button-div-header {
+	width: 30%;
+}
+
+.button-div-header ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.button-div-header ul li {
+	display: inline-block;
+	margin: 10px 0;
+	padding: 10px 0;
+	box-shadow: 1px 1px 10px #f5f5f5;
+}
+
+.button-div-header ul li a {
+	color: #27a6ba;
+	padding: 5px 30px;
+}
+
+.join-button {
+	text-decoration: none;
+	border: solid 1px #27a6ba;
+	transition: 0.5s;
+}
+
+.join-button:hover {
+	padding: 5px 45px;
+	transition: 0.5s;
+}
+
+.login-button {
+	text-decoration: none;	
+	margin-left: 0;
+	transition: 0.5s;
+}
+
+.login-button:hover {
+	color: red;
+	transition: 0.5s;
+}
+
+.container {
+	width: 85%;
+	margin: auto;
+}
+
+.row {
+	display: flex;
+}
+
+.row-50 {
+	width: 50%;
+}
+
+.main-title {
+
+}
+
+.main-title h1 {
+	font-size: 110px;
+	color: #242424;
+	font-family: 'Bree Serif', serif;
+	text-shadow: 2px 2px 5px #f0f0f0;
+}
+
+.main-title h3 {
+	font-size: 20px;
+	padding-right: 80px;
+	font-weight: normal;
+	margin-bottom: 100px;
+	color: #bad0d6;
+	text-align: justify;
+}
+
+.main-title a {
+	text-decoration: none;
+	font-size: 20px;
+	padding: 20px 40px;
+	color: #27a6ba;
+}
+
+.join-now-button {
+	margin-right: 30px;
+	border: solid 1px #27a6ba;
+	box-shadow: 1px 1px 10px #f5f5f5;
+	transition: 0.5s;
+}
+
+
+.join-now-button:hover {
+	background-color: #27a6ba;
+	color: white;
+	transition: 0.5s;
+}
+
+.explore-button {
+	border: solid 1px #27a6ba;
+	box-shadow: 1px 1px 10px #f5f5f5;
+	transition: 0.5s;
+}
+
+.explore-button:hover {
+	background-color: #27a6ba;
+	color: white;
+	transition: 0.5s;
+}
+
+.icon-div {
+	margin-top: 110px;
+	margin-left: 600px;
+	text-align: center;
+}
+
+.icon-div a {
+	text-decoration: none;
+	color: #27a6ba;
+	padding: 25px 15px 15px 15px;
+	border-radius: 15px;
+	transition: 0.5s;
+}
+
+.icon-div a:hover {
+	background-color: #27a6ba;
+	color: white;
+	transition: 0.5s;
+}
+
+.background-drop {
+	height: 700px;
+}
+
+.background-drop img {
+	height: 80%;
+	width: 80%;
+	padding: 90px 0 0 140px;
+}
